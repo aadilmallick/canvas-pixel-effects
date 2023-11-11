@@ -1,0 +1,14 @@
+{
+  "name": "canvas-pixel-effects",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bun build --watch --outdir dist src/index.ts src/particleText.ts"
+  }
+}
